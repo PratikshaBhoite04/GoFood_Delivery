@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'NHaasGroteskDSPro-65Md' !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#carousel{
+  max-height: 500px;
+}
+
+/* .custom-navbar{
+  background-color: #445414
+} */
+
+.trash-icon {
+
+  height: 24px;
+  width: 24px;
+  fill: white;
+}
+
+body {
+  background-color: #5ce198; /* Light gray background */
+}
+
+.login-container {
+  max-width: 400px; /* Set a max width for the container */
+  margin: 100px auto; /* Center the container */
+  padding: 20px;
+  background: #5fcb9c; /* White background for the form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgb(219, 211, 211); /* Subtle shadow */
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+}
+
+.login-title {
+  text-align: center; /* Center the title */
+  margin-bottom: 20px; /* Space below the title */
+  font-family: 'Arial', sans-serif; /* Font style */
+  color: #333; /* Dark text color */
+}
+
+.form-label {
+  font-weight: bold;
+  color: black; /* Bold label text */
+}
+
+.btn {
+  width: 100%; /* Full-width buttons */
+  margin-top: 10px;
+   /* Space between buttons */
+}
+
+.btn-success {
+  background-color: #28a745; /* Green color */
+  border: none; /* Remove border */
+  width: 300px;
+  margin-left: 20px;
+}
+
+.btn-danger {
+  background-color: #36a24f; /* Red color */
+  border: none; /* Remove border */
+  width: 300px;
+  margin-left: 20px;
+  
+}
+
+.btn:hover {
+  opacity: 0.9;
+   /* Slightly fade buttons on hover */
+}
+
+.form-text {
+  font-size: 0.9rem; /* Slightly smaller font size for help text */
+  color: darkgray; /* Gray text color */
+}
+.form-control{
+  color: #28a745;
+}
+
+
+/* Center the form on the page */
+.signup-container {
+  height: 100vh;
+  color: #5ce198;
+  
+  
+}
+
+/* Style the signup card */
+.signup-card {
+  background-color:#5fcb9c;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  padding: 2rem;
+  box-shadow: white;
+}
+
+/* Style form elements */
+.form-label {
+  font-weight: bold;
+}
+
+/* Button customizations */
+.btn {
+  border-radius: 30px;
+  margin-right: 10px;
+  padding: 20px 15px;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border: none;
+}
+
+.btn-outline-danger {
+  color: black;
+  border-color: #28a745;
+  background-color: #28a745;
+  
+}
+
+.btn-outline-danger:hover {
+  background-color: #28a745;
+  color: #fff;
+}
+
+
